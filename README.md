@@ -124,10 +124,7 @@ For contributing to this project, please submit pull requests with detailed desc
 
 ## Authors
 
-Aadi Arora
-Ananya Ramesh
-Rushil Gargash
-Sara Hanspal
+Aadi Arora, Ananya Ramesh, Rushil Gargash, Sara Hanspal
 
 ## License
 
