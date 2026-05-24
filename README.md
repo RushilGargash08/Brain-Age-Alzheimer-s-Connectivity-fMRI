@@ -89,6 +89,14 @@ The project evaluates model performance based on:
 - Classification accuracy for disease detection
 - AUC-ROC scores for binary classification
 
+### Final Model: Support Vector Regression (SVR)
+
+Support Vector Regression has demonstrated superior performance across evaluation metrics and has been selected as the final model for brain age prediction. SVR effectively captures non-linear relationships in hemispheric connectivity data while maintaining strong generalization capabilities.
+
+### Model Status
+
+Support Vector Machine (SVM) results are currently under development and do not meet the required performance benchmarks. The team is actively working on improving SVM classification performance through hyperparameter optimization, feature engineering, and enhanced data preprocessing techniques. Future improvements will focus on achieving higher accuracy, F1 score, recall, and precision metrics.
+
 Refer to ridge_regression/ridge_regression_results.md for detailed results and comparisons.
 
 ## Model Descriptions
