@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements multiple machine learning approaches to predict brain age from functional MRI data, with a focus on detecting Alzheimer's Disease using hemispheric functional connectivity patterns. The project compares several modeling techniques including CNN, GNN, SVR, and Ridge Regression to determine the most effective approach for brain age prediction.
+This project implements Support Vector Regression (SVR) as the primary approach to predict brain age from functional MRI data, with a focus on detecting Alzheimer's Disease using hemispheric functional connectivity patterns. The final SVR model demonstrates superior performance over alternative architectures including CNN, GNN, Ridge Regression, and SVM, making it the preferred solution for brain age prediction and disease detection.
 
 ## Project Structure
 
@@ -23,9 +23,9 @@ Dataset/
 
 ## Project Objectives
 
-1. Develop multiple machine learning models to predict brain age from fMRI data
+1. Implement Support Vector Regression (SVR) for accurate brain age prediction from fMRI data
 2. Identify hemispheric functional connectivity patterns associated with Alzheimer's Disease
-3. Compare model performance across different architectures (CNN, GNN, SVR, Ridge Regression)
+3. Evaluate SVR performance against alternative models (CNN, GNN, Ridge Regression, SVM) for comparison
 4. Create interpretable biomarkers for disease detection and prognosis
 
 ## Requirements
@@ -97,7 +97,7 @@ Support Vector Regression has demonstrated superior performance across evaluatio
 
 Support Vector Machine (SVM) results are currently under development and do not meet the required performance benchmarks. The team is actively working on improving SVM classification performance through hyperparameter optimization, feature engineering, and enhanced data preprocessing techniques. Future improvements will focus on achieving higher accuracy, F1 score, recall, and precision metrics.
 
-Refer to ridge_regression/ridge_regression_results.md for detailed results and comparisons.
+Refer to SVR and SVM/SVR_SVM.ipynb for detailed SVR results and model comparisons.
 
 ## Model Descriptions
 
